@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script, etc.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nosetests/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.poetry/
+
+# Environments
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.venv
+venv
+ENV/
+env/
+myenv/
+active_env/
+
+# IDE / Editor config
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project-specific / ML Caches
+*.cache
+labels.cache
+
+# Logs
+*.log
+run_output.txt
+curl_output.txt
+
+# YOLO Model Weights (Ignore large base models, keep custom model)
+*.pt
+!model/traffic_sign_detector.pt
+
+# Training runs (We moved needed README images to assets/)
+runs/
+
+# Detection outputs
+detections/
+detections.csv
+output.mp4
+
+# Large raw media (vdo.mp4 is 135.9MB and will exceed GitHub's 100MB limit)
+data/input/vdo.mp4
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store

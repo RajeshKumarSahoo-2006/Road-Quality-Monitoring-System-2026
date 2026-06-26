@@ -1,0 +1,29 @@
+# Traffic Sign Detection Dataset Configuration
+# YOLO Dataset Format Configuration File
+
+# Path to dataset root directory
+path: d:/DeepSurge/traffic-sign-detection-using-yolov11-main/traffic-sign-detection-using-yolov11-main/dataset
+
+# Relative paths for data splits
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 10
+
+# Class names (must match your annotation class IDs)
+names: 
+  0: 'Traffic Light Red'
+  1: 'Traffic Light Yellow'
+  2: 'Traffic Light Green'
+  3: 'Speed Limit Signs'
+  4: 'Warning Signs'
+  5: 'Direction Signs'
+  6: 'Pedestrian Crossing'
+  7: 'Stop Sign'
+  8: 'Yield Sign'
+  9: 'No Entry Sign'
+
+# Optional: Download links (for Roboflow datasets)
+# download: https://app.roboflow.com/api/dataset/download/...
