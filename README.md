@@ -115,36 +115,6 @@ Below are detection samples showcasing the model's performance on various traffi
 
 ---
 
-## 🛠️ Installation & Setup
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/RajeshKumarSahoo-2006/traffic-sign-detection-using-yolov11.git
-    cd traffic-sign-detection-using-yolov11
-    ```
-
-2.  **Create a Virtual Environment:**
-    ```bash
-    python -m venv venv
-    ```
-
-3.  **Activate the Environment:**
-    *   **Windows:**
-        ```bash
-        venv\Scripts\activate
-        ```
-    *   **macOS/Linux:**
-        ```bash
-        source venv/bin/activate
-        ```
-
-4.  **Install Required Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
----
-
 ## 💻 Usage Instructions
 
 ### 1. Process Images
