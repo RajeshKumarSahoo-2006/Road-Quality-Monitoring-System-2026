@@ -1,6 +1,6 @@
-# Traffic Sign Detection and Logging System using YOLOv11
+# Road Quality Monotoring system
 
-![YOLOv11 Traffic Sign Detection](./yolov11.webp)
+![Road-Quality-Monitoring-System](./yolov11.webp)
 
 A comprehensive deep learning pipeline for real-time traffic sign detection, custom logging, and statistics analysis using the latest **YOLOv11** architecture. This project fine-tunes YOLOv11 on a self-driving cars dataset to detect 15 distinct types of traffic signs, performs overlapping bounding box suppression (NMS), crops detection regions, and records extensive metadata (timestamps, coordinates, confidence, lighting conditions) into a CSV database.
 
@@ -30,7 +30,7 @@ A comprehensive deep learning pipeline for real-time traffic sign detection, cus
 ## 📁 Project Structure
 
 ```
-traffic-sign-detection-using-yolov11/
+Road-Quality-Monitoring-System-AI 
 ├── assets/                  # Documentation images, confusion matrix, and training plots
 ├── data/
 │   └── input/               # Test inputs (images and test videos)
@@ -187,5 +187,5 @@ Logging outputs are written to `detections.csv`. Sample row metadata includes:
 Developed with 💖 by [Rajesh Kumar Sahoo](https://github.com/RajeshKumarSahoo-2006).
 
 *   **GitHub:** [@RajeshKumarSahoo-2006](https://github.com/RajeshKumarSahoo-2006)
-*   **Project Link:** [Traffic Sign Detection using YOLOv11](https://github.com/RajeshKumarSahoo-2006/traffic-sign-detection-using-yolov11)
-*   **Acknowledgements:** Media files utilized for verification predictions are sourced from [Pexels](https://www.pexels.com/).
+*   **Project Link:** [Road-Quality-Monitoring-System-AI ⭐](https://github.com/RajeshKumarSahoo-2006/traffic-sign-detection-using-yolov11)
+*   
